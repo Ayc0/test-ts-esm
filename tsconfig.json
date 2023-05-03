@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "isolatedModules": true,
+    "experimentalDecorators": true,
+    "target": "es6",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": ["es2019", "dom", "dom.iterable", "es2019.array"],
+    "allowJs": true,
+    "jsx": "react",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "useUnknownInCatchVariables": false,
+    "strictPropertyInitialization": true,
+    "noUncheckedIndexedAccess": false,
+    "noImplicitOverride": false,
+    "allowArbitraryExtensions": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  }
+}

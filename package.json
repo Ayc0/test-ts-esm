@@ -1,0 +1,23 @@
+{
+  "name": "test-ts-esm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Ayc0/test-ts-esm",
+  "author": "Ayc0 <ayc0.benj@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "run-1": "node option-1-with-cjs",
+    "run-2": "node option-2-with-cjs-and-node16",
+    "run-3": "node option-3-with-cjs-and-node16-js-extension",
+    "build-1": "tsc -p option-1-with-cjs",
+    "build-2": "tsc -p option-2-with-cjs-and-node16",
+    "build-3": "tsc -p option-3-with-cjs-and-node16-js-extension",
+    "run-built-1": "node out/option-1-with-cjs/1-entry.js",
+    "run-built-2": "node out/option-2-with-cjs-and-node16/1-entry.js",
+    "run-built-3": "node out/option-3-with-cjs-and-node16-js-extension/1-entry.js"
+  }
+}

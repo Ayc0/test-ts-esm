@@ -1,0 +1,9 @@
+{
+  "extends": "..",
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "outDir": "../out/option-1-with-cjs/"
+  },
+  "include": ["./*"]
+}
